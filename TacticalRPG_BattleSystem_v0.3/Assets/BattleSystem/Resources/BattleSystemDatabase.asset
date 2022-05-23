@@ -1,0 +1,674 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 838d7f8c1cb44e44d85baa1eac0152f3, type: 3}
+  m_Name: BattleSystemDatabase
+  m_EditorClassIdentifier: 
+  m_baseInventory:
+    m_items:
+    - m_name: Potion
+      m_icon: {fileID: 0}
+      m_animation: {fileID: 0}
+      m_itemType: 0
+      m_target: 0
+      m_weaponType: 0
+      m_count: 10
+      m_range: 0
+      m_life: 10
+      m_mana: 0
+      m_str: 0
+      m_def: 0
+      m_magStr: 0
+      m_magDef: 0
+      m_sp: 0
+    - m_name: Ether
+      m_icon: {fileID: 0}
+      m_animation: {fileID: 0}
+      m_itemType: 0
+      m_target: 0
+      m_weaponType: 0
+      m_count: 3
+      m_range: 0
+      m_life: 0
+      m_mana: 10
+      m_str: 0
+      m_def: 0
+      m_magStr: 0
+      m_magDef: 0
+      m_sp: 0
+    - m_name: Sword
+      m_icon: {fileID: 0}
+      m_animation: {fileID: 0}
+      m_itemType: 1
+      m_target: 0
+      m_weaponType: 0
+      m_count: 1
+      m_range: 1
+      m_life: 0
+      m_mana: 0
+      m_str: 7
+      m_def: 0
+      m_magStr: 0
+      m_magDef: 0
+      m_sp: 0
+    - m_name: Spear
+      m_icon: {fileID: 0}
+      m_animation: {fileID: 0}
+      m_itemType: 1
+      m_target: 0
+      m_weaponType: 1
+      m_count: 3
+      m_range: 2
+      m_life: 0
+      m_mana: 0
+      m_str: 5
+      m_def: 0
+      m_magStr: 0
+      m_magDef: 0
+      m_sp: 0
+    - m_name: Bow
+      m_icon: {fileID: 0}
+      m_animation: {fileID: 0}
+      m_itemType: 1
+      m_target: 0
+      m_weaponType: 5
+      m_count: 4
+      m_range: 5
+      m_life: 0
+      m_mana: 0
+      m_str: 5
+      m_def: 0
+      m_magStr: 0
+      m_magDef: 0
+      m_sp: 0
+    - m_name: Axe
+      m_icon: {fileID: 0}
+      m_animation: {fileID: 0}
+      m_itemType: 1
+      m_target: 0
+      m_weaponType: 2
+      m_count: 1
+      m_range: 1
+      m_life: 0
+      m_mana: 0
+      m_str: 10
+      m_def: 0
+      m_magStr: 0
+      m_magDef: 0
+      m_sp: 0
+    - m_name: Staff
+      m_icon: {fileID: 0}
+      m_animation: {fileID: 0}
+      m_itemType: 1
+      m_target: 0
+      m_weaponType: 4
+      m_count: 1
+      m_range: 1
+      m_life: 0
+      m_mana: 0
+      m_str: 0
+      m_def: 0
+      m_magStr: 5
+      m_magDef: 0
+      m_sp: 0
+    m_weapons: []
+    m_itemsNames:
+    - Potion
+    - Ether
+    - Sword
+    - Spear
+    - Bow
+    - Axe
+    - Staff
+    m_itemsCount: 0a000000030000000100000003000000040000000100000001000000
+  m_characters:
+  - m_name: Char01
+    m_face: {fileID: -2665245967316214821, guid: 5abf6a19aa81dd046b7ce298817d077a, type: 3}
+    m_controller: {fileID: 9100000, guid: 5a2f0b38adfd29744b8b5326bf369420, type: 2}
+    m_idle:
+    - {fileID: 7400000, guid: fbd138d941a674a4a92a9e6b1b8eb573, type: 2}
+    - {fileID: 7400000, guid: 77428b3eac8401348bdf49b104f7cd0b, type: 2}
+    - {fileID: 7400000, guid: e40d101550097fa4c914b8a870d762eb, type: 2}
+    - {fileID: 7400000, guid: 08594ff3ec1cf9c4ab436b2820051b29, type: 2}
+    m_walk:
+    - {fileID: 7400000, guid: 604fc7485a3562a4ab39e7e65c6d16e8, type: 2}
+    - {fileID: 7400000, guid: 6c8ab6590dd309b4c93449e171e6a877, type: 2}
+    - {fileID: 7400000, guid: f5d1ec3882fd3f54f97788bce3093a6e, type: 2}
+    - {fileID: 7400000, guid: 663a74d8b988c654a98144f5ab628ec9, type: 2}
+    m_description: 
+    m_weaponName: Sword
+    m_weapon:
+      m_name: Sword
+      m_icon: {fileID: 0}
+      m_animation: {fileID: 0}
+      m_itemType: 1
+      m_target: 0
+      m_weaponType: 0
+      m_count: 1
+      m_range: 1
+      m_life: 0
+      m_mana: 0
+      m_str: 7
+      m_def: 0
+      m_magStr: 0
+      m_magDef: 0
+      m_sp: 0
+    m_maxLife: 20
+    m_maxMana: 6
+    m_str: 5
+    m_def: 2
+    m_magStr: 0
+    m_magDef: 0
+    m_sp: 3
+  - m_name: Char02
+    m_face: {fileID: -5795006970311993484, guid: 5abf6a19aa81dd046b7ce298817d077a, type: 3}
+    m_controller: {fileID: 9100000, guid: 21346c65979a3a147a82e83a53f19800, type: 2}
+    m_idle:
+    - {fileID: 7400000, guid: 53d96302bf9a3dd48b6ef9a0dd271de5, type: 2}
+    - {fileID: 7400000, guid: 56af128b4845f3b4a8105750045c2c5b, type: 2}
+    - {fileID: 7400000, guid: 61b94bc7514ad8445ac6e9e7065da34d, type: 2}
+    - {fileID: 7400000, guid: 4c063c1aa6efb4f4dabf1c0105ecddc7, type: 2}
+    m_walk:
+    - {fileID: 7400000, guid: 5de1c59cff618be499cf0eddf30fc88e, type: 2}
+    - {fileID: 7400000, guid: 58a630d3df47be04096f228a965f55e6, type: 2}
+    - {fileID: 7400000, guid: d29bd8a1a59318b448fe13828f4cc8a6, type: 2}
+    - {fileID: 7400000, guid: 14485ecf1d156f74fafccbe0b9ffb788, type: 2}
+    m_description: 
+    m_weaponName: Spear
+    m_weapon:
+      m_name: Spear
+      m_icon: {fileID: 0}
+      m_animation: {fileID: 0}
+      m_itemType: 1
+      m_target: 0
+      m_weaponType: 1
+      m_count: 3
+      m_range: 2
+      m_life: 0
+      m_mana: 0
+      m_str: 5
+      m_def: 0
+      m_magStr: 0
+      m_magDef: 0
+      m_sp: 0
+    m_maxLife: 20
+    m_maxMana: 6
+    m_str: 5
+    m_def: 2
+    m_magStr: 0
+    m_magDef: 0
+    m_sp: 3
+  - m_name: Char03
+    m_face: {fileID: -205994957021336204, guid: 5abf6a19aa81dd046b7ce298817d077a, type: 3}
+    m_controller: {fileID: 9100000, guid: 83a7490ca79ae1c43a0e91ce1807101a, type: 2}
+    m_idle:
+    - {fileID: 7400000, guid: eabb56b06b726ce4cab1f78e07474210, type: 2}
+    - {fileID: 7400000, guid: 8808e87128eaf2f4093f0063bf095562, type: 2}
+    - {fileID: 7400000, guid: e2be095a374dccb4db3ae116823da9d1, type: 2}
+    - {fileID: 7400000, guid: c7ccc3573a02314419aaa7c22a3a9ce5, type: 2}
+    m_walk:
+    - {fileID: 7400000, guid: 945dd75f3219cd148a7062b3d358db2f, type: 2}
+    - {fileID: 7400000, guid: 6324fb4043a28404cb94236b8a1e354d, type: 2}
+    - {fileID: 7400000, guid: 6939c1251019b284482fdf42c6b9c3d4, type: 2}
+    - {fileID: 7400000, guid: 21098dc88a3de414cb1ddd570e3ac068, type: 2}
+    m_description: 
+    m_weaponName: Staff
+    m_weapon:
+      m_name: Staff
+      m_icon: {fileID: 0}
+      m_animation: {fileID: 0}
+      m_itemType: 1
+      m_target: 0
+      m_weaponType: 4
+      m_count: 1
+      m_range: 1
+      m_life: 0
+      m_mana: 0
+      m_str: 0
+      m_def: 0
+      m_magStr: 5
+      m_magDef: 0
+      m_sp: 0
+    m_maxLife: 20
+    m_maxMana: 10
+    m_str: 3
+    m_def: 1
+    m_magStr: 0
+    m_magDef: 0
+    m_sp: 2
+  - m_name: Slime
+    m_face: {fileID: -4967783068520248592, guid: 9a827a1e0d0c7294aad5162398565a1a, type: 3}
+    m_controller: {fileID: 9100000, guid: a255bd2edfb64694bbead719ce260b76, type: 2}
+    m_idle:
+    - {fileID: 7400000, guid: 27be700334b1a574abab16085f776b35, type: 2}
+    - {fileID: 7400000, guid: 5de42a6a8f8859f45ab136abf219538b, type: 2}
+    - {fileID: 7400000, guid: e86a6a8d1a789194dac2ecbdbdd0613d, type: 2}
+    - {fileID: 7400000, guid: 44984b0ddf9993f4c89bd54e15b23ee4, type: 2}
+    m_walk:
+    - {fileID: 7400000, guid: 59c9873c4a1aeed4283439c8e136029e, type: 2}
+    - {fileID: 7400000, guid: 768dbb95add4ae54fb72286b9c09df93, type: 2}
+    - {fileID: 7400000, guid: cfea52b7b3134d14fb7c56bb3d209b5f, type: 2}
+    - {fileID: 7400000, guid: 859713507e976114b83c4ba62bf0e28c, type: 2}
+    m_description: 
+    m_weaponName: 
+    m_weapon:
+      m_name: 
+      m_icon: {fileID: 0}
+      m_animation: {fileID: 0}
+      m_itemType: 0
+      m_target: 0
+      m_weaponType: 0
+      m_count: 1
+      m_range: 0
+      m_life: 0
+      m_mana: 0
+      m_str: 0
+      m_def: 0
+      m_magStr: 0
+      m_magDef: 0
+      m_sp: 0
+    m_maxLife: 15
+    m_maxMana: 0
+    m_str: 0
+    m_def: 0
+    m_magStr: 5
+    m_magDef: 2
+    m_sp: 1
+  m_items:
+  - m_name: Axe
+    m_icon: {fileID: 0}
+    m_animation: {fileID: 0}
+    m_itemType: 1
+    m_target: 0
+    m_weaponType: 2
+    m_count: 1
+    m_range: 1
+    m_life: 0
+    m_mana: 0
+    m_str: 10
+    m_def: 0
+    m_magStr: 0
+    m_magDef: 0
+    m_sp: 0
+  - m_name: Bow
+    m_icon: {fileID: 0}
+    m_animation: {fileID: 0}
+    m_itemType: 1
+    m_target: 0
+    m_weaponType: 5
+    m_count: 4
+    m_range: 5
+    m_life: 0
+    m_mana: 0
+    m_str: 5
+    m_def: 0
+    m_magStr: 0
+    m_magDef: 0
+    m_sp: 0
+  - m_name: Ether
+    m_icon: {fileID: 0}
+    m_animation: {fileID: 0}
+    m_itemType: 0
+    m_target: 0
+    m_weaponType: 0
+    m_count: 3
+    m_range: 0
+    m_life: 0
+    m_mana: 10
+    m_str: 0
+    m_def: 0
+    m_magStr: 0
+    m_magDef: 0
+    m_sp: 0
+  - m_name: Potion
+    m_icon: {fileID: 0}
+    m_animation: {fileID: 0}
+    m_itemType: 0
+    m_target: 0
+    m_weaponType: 0
+    m_count: 10
+    m_range: 0
+    m_life: 10
+    m_mana: 0
+    m_str: 0
+    m_def: 0
+    m_magStr: 0
+    m_magDef: 0
+    m_sp: 0
+  - m_name: Spear
+    m_icon: {fileID: 0}
+    m_animation: {fileID: 0}
+    m_itemType: 1
+    m_target: 0
+    m_weaponType: 1
+    m_count: 3
+    m_range: 2
+    m_life: 0
+    m_mana: 0
+    m_str: 5
+    m_def: 0
+    m_magStr: 0
+    m_magDef: 0
+    m_sp: 0
+  - m_name: Staff
+    m_icon: {fileID: 0}
+    m_animation: {fileID: 0}
+    m_itemType: 1
+    m_target: 0
+    m_weaponType: 4
+    m_count: 1
+    m_range: 1
+    m_life: 0
+    m_mana: 0
+    m_str: 0
+    m_def: 0
+    m_magStr: 5
+    m_magDef: 0
+    m_sp: 0
+  - m_name: Sword
+    m_icon: {fileID: 0}
+    m_animation: {fileID: 0}
+    m_itemType: 1
+    m_target: 0
+    m_weaponType: 0
+    m_count: 1
+    m_range: 1
+    m_life: 0
+    m_mana: 0
+    m_str: 7
+    m_def: 0
+    m_magStr: 0
+    m_magDef: 0
+    m_sp: 0
+  m_skills:
+  - m_name: Heal
+    m_icon: {fileID: 0}
+    m_animation: {fileID: 0}
+    m_target: 2
+    m_weapon: 4
+    m_level: 1
+    m_isMagic: 1
+    m_cost: 7
+    m_range: 1
+    m_life: 10
+    m_str: 0
+    m_magStr: 0
+  - m_name: Holy Spear
+    m_icon: {fileID: 0}
+    m_animation: {fileID: 0}
+    m_target: 0
+    m_weapon: 4
+    m_level: 1
+    m_isMagic: 1
+    m_cost: 5
+    m_range: 5
+    m_life: 0
+    m_str: 0
+    m_magStr: 10
+  - m_name: Pierce
+    m_icon: {fileID: 0}
+    m_animation: {fileID: 0}
+    m_target: 0
+    m_weapon: 1
+    m_level: 1
+    m_isMagic: 0
+    m_cost: 3
+    m_range: 0
+    m_life: 0
+    m_str: 15
+    m_magStr: 0
+  - m_name: Slash
+    m_icon: {fileID: 0}
+    m_animation: {fileID: 0}
+    m_target: 0
+    m_weapon: 0
+    m_level: 1
+    m_isMagic: 0
+    m_cost: 2
+    m_range: 1
+    m_life: 0
+    m_str: 10
+    m_magStr: 0
+  m_teams:
+  - m_name: AllyTeam
+    m_units:
+    - m_name: AllyA
+      m_weapon:
+        m_name: Sword
+        m_icon: {fileID: 0}
+        m_animation: {fileID: 0}
+        m_itemType: 1
+        m_target: 0
+        m_weaponType: 0
+        m_count: 1
+        m_range: 1
+        m_life: 0
+        m_mana: 0
+        m_str: 7
+        m_def: 0
+        m_magStr: 0
+        m_magDef: 0
+        m_sp: 0
+      m_charSheet:
+        m_name: Char01
+        m_face: {fileID: 0}
+        m_controller: {fileID: 9100000, guid: 5a2f0b38adfd29744b8b5326bf369420, type: 2}
+        m_idle:
+        - {fileID: 7400000, guid: fbd138d941a674a4a92a9e6b1b8eb573, type: 2}
+        - {fileID: 7400000, guid: 77428b3eac8401348bdf49b104f7cd0b, type: 2}
+        - {fileID: 7400000, guid: e40d101550097fa4c914b8a870d762eb, type: 2}
+        - {fileID: 7400000, guid: 08594ff3ec1cf9c4ab436b2820051b29, type: 2}
+        m_walk:
+        - {fileID: 7400000, guid: 604fc7485a3562a4ab39e7e65c6d16e8, type: 2}
+        - {fileID: 7400000, guid: 6c8ab6590dd309b4c93449e171e6a877, type: 2}
+        - {fileID: 7400000, guid: f5d1ec3882fd3f54f97788bce3093a6e, type: 2}
+        - {fileID: 7400000, guid: 663a74d8b988c654a98144f5ab628ec9, type: 2}
+        m_description: 
+        m_weaponName: Sword
+        m_weapon:
+          m_name: Sword
+          m_icon: {fileID: 0}
+          m_animation: {fileID: 0}
+          m_itemType: 1
+          m_target: 0
+          m_weaponType: 0
+          m_count: 1
+          m_range: 1
+          m_life: 0
+          m_mana: 0
+          m_str: 7
+          m_def: 0
+          m_magStr: 0
+          m_magDef: 0
+          m_sp: 0
+        m_maxLife: 20
+        m_maxMana: 6
+        m_str: 5
+        m_def: 2
+        m_magStr: 0
+        m_magDef: 0
+        m_sp: 3
+    - m_name: AllyB
+      m_weapon:
+        m_name: Staff
+        m_icon: {fileID: 0}
+        m_animation: {fileID: 0}
+        m_itemType: 1
+        m_target: 0
+        m_weaponType: 4
+        m_count: 1
+        m_range: 1
+        m_life: 0
+        m_mana: 0
+        m_str: 0
+        m_def: 0
+        m_magStr: 5
+        m_magDef: 0
+        m_sp: 0
+      m_charSheet:
+        m_name: Char03
+        m_face: {fileID: 0}
+        m_controller: {fileID: 9100000, guid: 83a7490ca79ae1c43a0e91ce1807101a, type: 2}
+        m_idle:
+        - {fileID: 7400000, guid: eabb56b06b726ce4cab1f78e07474210, type: 2}
+        - {fileID: 7400000, guid: 8808e87128eaf2f4093f0063bf095562, type: 2}
+        - {fileID: 7400000, guid: e2be095a374dccb4db3ae116823da9d1, type: 2}
+        - {fileID: 7400000, guid: c7ccc3573a02314419aaa7c22a3a9ce5, type: 2}
+        m_walk:
+        - {fileID: 7400000, guid: 945dd75f3219cd148a7062b3d358db2f, type: 2}
+        - {fileID: 7400000, guid: 6324fb4043a28404cb94236b8a1e354d, type: 2}
+        - {fileID: 7400000, guid: 6939c1251019b284482fdf42c6b9c3d4, type: 2}
+        - {fileID: 7400000, guid: 21098dc88a3de414cb1ddd570e3ac068, type: 2}
+        m_description: 
+        m_weaponName: Staff
+        m_weapon:
+          m_name: Staff
+          m_icon: {fileID: 0}
+          m_animation: {fileID: 0}
+          m_itemType: 1
+          m_target: 0
+          m_weaponType: 4
+          m_count: 1
+          m_range: 1
+          m_life: 0
+          m_mana: 0
+          m_str: 0
+          m_def: 0
+          m_magStr: 5
+          m_magDef: 0
+          m_sp: 0
+        m_maxLife: 20
+        m_maxMana: 10
+        m_str: 3
+        m_def: 1
+        m_magStr: 0
+        m_magDef: 0
+        m_sp: 2
+    - m_name: Char02
+      m_weapon:
+        m_name: Spear
+        m_icon: {fileID: 0}
+        m_animation: {fileID: 0}
+        m_itemType: 1
+        m_target: 0
+        m_weaponType: 1
+        m_count: 3
+        m_range: 2
+        m_life: 0
+        m_mana: 0
+        m_str: 5
+        m_def: 0
+        m_magStr: 0
+        m_magDef: 0
+        m_sp: 0
+      m_charSheet:
+        m_name: Char02
+        m_face: {fileID: 0}
+        m_controller: {fileID: 9100000, guid: 21346c65979a3a147a82e83a53f19800, type: 2}
+        m_idle:
+        - {fileID: 7400000, guid: 53d96302bf9a3dd48b6ef9a0dd271de5, type: 2}
+        - {fileID: 7400000, guid: 56af128b4845f3b4a8105750045c2c5b, type: 2}
+        - {fileID: 7400000, guid: 61b94bc7514ad8445ac6e9e7065da34d, type: 2}
+        - {fileID: 7400000, guid: 4c063c1aa6efb4f4dabf1c0105ecddc7, type: 2}
+        m_walk:
+        - {fileID: 7400000, guid: 5de1c59cff618be499cf0eddf30fc88e, type: 2}
+        - {fileID: 7400000, guid: 58a630d3df47be04096f228a965f55e6, type: 2}
+        - {fileID: 7400000, guid: d29bd8a1a59318b448fe13828f4cc8a6, type: 2}
+        - {fileID: 7400000, guid: 14485ecf1d156f74fafccbe0b9ffb788, type: 2}
+        m_description: 
+        m_weaponName: Spear
+        m_weapon:
+          m_name: Spear
+          m_icon: {fileID: 0}
+          m_animation: {fileID: 0}
+          m_itemType: 1
+          m_target: 0
+          m_weaponType: 1
+          m_count: 3
+          m_range: 2
+          m_life: 0
+          m_mana: 0
+          m_str: 5
+          m_def: 0
+          m_magStr: 0
+          m_magDef: 0
+          m_sp: 0
+        m_maxLife: 20
+        m_maxMana: 6
+        m_str: 5
+        m_def: 2
+        m_magStr: 0
+        m_magDef: 0
+        m_sp: 3
+    m_unitsNames:
+    - Char01
+    - Char02
+    - Char03
+  - m_name: EnemyTeam
+    m_units:
+    - m_name: Enemy
+      m_weapon:
+        m_name: 
+        m_icon: {fileID: 0}
+        m_animation: {fileID: 0}
+        m_itemType: 0
+        m_target: 0
+        m_weaponType: 0
+        m_count: 1
+        m_range: 0
+        m_life: 0
+        m_mana: 0
+        m_str: 0
+        m_def: 0
+        m_magStr: 0
+        m_magDef: 0
+        m_sp: 0
+      m_charSheet:
+        m_name: Slime
+        m_face: {fileID: 0}
+        m_controller: {fileID: 9100000, guid: a255bd2edfb64694bbead719ce260b76, type: 2}
+        m_idle:
+        - {fileID: 7400000, guid: 27be700334b1a574abab16085f776b35, type: 2}
+        - {fileID: 7400000, guid: 5de42a6a8f8859f45ab136abf219538b, type: 2}
+        - {fileID: 7400000, guid: e86a6a8d1a789194dac2ecbdbdd0613d, type: 2}
+        - {fileID: 7400000, guid: 44984b0ddf9993f4c89bd54e15b23ee4, type: 2}
+        m_walk:
+        - {fileID: 7400000, guid: 59c9873c4a1aeed4283439c8e136029e, type: 2}
+        - {fileID: 7400000, guid: 768dbb95add4ae54fb72286b9c09df93, type: 2}
+        - {fileID: 7400000, guid: cfea52b7b3134d14fb7c56bb3d209b5f, type: 2}
+        - {fileID: 7400000, guid: 859713507e976114b83c4ba62bf0e28c, type: 2}
+        m_description: 
+        m_weaponName: 
+        m_weapon:
+          m_name: 
+          m_icon: {fileID: 0}
+          m_animation: {fileID: 0}
+          m_itemType: 0
+          m_target: 0
+          m_weaponType: 0
+          m_count: 1
+          m_range: 0
+          m_life: 0
+          m_mana: 0
+          m_str: 0
+          m_def: 0
+          m_magStr: 0
+          m_magDef: 0
+          m_sp: 0
+        m_maxLife: 15
+        m_maxMana: 0
+        m_str: 0
+        m_def: 0
+        m_magStr: 5
+        m_magDef: 2
+        m_sp: 1
+    m_unitsNames:
+    - Slime
